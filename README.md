@@ -3,7 +3,7 @@
 
 If you want to train your network model you need to take the images of the same aspect ratio.
 
-I wrote the next script for doing this thing. The script supports converting only to **JPG**.
+I wrote the next script for doing this thing. The script supports converting only to **JPG** yet.
 
 ### Requirements
 1. Installed **Python 3** environment;
@@ -36,6 +36,7 @@ $ python -m pip install Pillow
 ```
 Run it:
 ```sh
+$ git clone https://github.com/liashchynskyi/vertex && cd vertex
 $ python converter.py -r ROOT_DIR -f SIZE
 ```
 * ROOT_DIR - root directory of the images;
