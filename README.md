@@ -7,7 +7,7 @@ I wrote the next script for doing this thing. Currently the script supports conv
 
 ### Requirements
 1. Installed **Python 3** environment;
-2. Installed **Pillow** library;
+2. Installed **Pillow** (PIL) library;
 3. Root directory of your images. 
 
 **The script only works if your root directory contains directories of the image classes inside.** It is necessary for multithreading executing (one class folder - one thread), after that if the class folder also contains the other directories inside, the script will work recursively. 
