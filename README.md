@@ -1,9 +1,7 @@
 
 # Image converter :wave:
 
-If you want to train your network model you need to take the images of the same aspect ratio.
-
-I wrote the next script for doing this thing. Currently the script supports conversion only to **JPG**.
+If you want to train your network model you need to take the images of the same aspect ratio. I wrote the next script for doing this thing. Currently the script supports conversion only to **JPG**.
 
 ### Requirements
 1. Installed **Python 3** environment;
